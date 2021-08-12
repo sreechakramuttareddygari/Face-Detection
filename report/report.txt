@@ -1,0 +1,3 @@
+this is available at localhost:9870 ->utilities ->browse file system
+
+we create a user dir in the distributed file system.i put the input and output directories in sree for the input files and output files respectively.
