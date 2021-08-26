@@ -77,7 +77,7 @@ Result:
                The hadoop streaming works fine with the mapper and reducer py scripts built but
 it can not use the resources properly even by changing map.cores.max , map.cores.min to 4 or by explicitly passing them in the terminal command , this is only possible with yarn as mapred.framework but yarn has problems running py scripts ,yarn needs spark to run py scripts, so to use the resources we needed to use spark and tweaked the mapper we built for hadoop streaming , this works fine and following is the result when input split is 2.
 input split is 2:
-![Screenshot](/reports/screenshot.png)
+![Screenshot](/report/Screenshot 2021-08-26 at 1.06.24 PM.png)
 2 jobs are running in parallel:
 
 these are the final results for input file f4.txt:
